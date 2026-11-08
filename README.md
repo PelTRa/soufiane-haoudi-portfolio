@@ -14,11 +14,10 @@ npm run dev
 
 Open the local URL printed by Vite, normally http://localhost:5173.
 
-## Assets to add later
+## Included assets
 
-This commit includes source and configuration only. The six WebP images and four
-PDF samples are intentionally not included yet. Their existing references are
-preserved, so images and PDF links will become available after these files are added:
+The repository includes all six optimized WebP images and four PDF work samples.
+The portfolio links to the files in these folders:
 
 ```text
 portfolio/public/assets/
@@ -45,9 +44,8 @@ npm run build
 npm run preview
 ```
 
-The build is generated in the sibling `docs/` folder, which is not committed in
-this source-only version. Add the media files before preparing the final website
-for hosting.
+The build is generated in the sibling `docs/` folder. Generated build files are
+not committed. Upload the contents of `docs/` to a static web host after building.
 
 ## Edit
 
